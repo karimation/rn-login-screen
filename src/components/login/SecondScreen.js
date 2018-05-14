@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   Animated,
   Easing,
+  Text,
 } from 'react-native';
 import {Actions, ActionConst} from 'react-native-router-flux';
 
@@ -50,6 +51,7 @@ export default class SecondScreen extends Component {
 
     return (
       <View style={styles.container}>
+        <Text>Welcome Mr Blabla</Text>
         <TouchableOpacity
           onPress={this._onPress}
           style={styles.button}
