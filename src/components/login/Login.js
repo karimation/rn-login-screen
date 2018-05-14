@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
+import LoginForm from './loginForm.js'
 import Styles from '../../styles/styles.js';
 
 export default class Login extends Component {
@@ -7,10 +8,11 @@ export default class Login extends Component {
     let logoImg = require('../../images/logo.png');
     return (
       <View style={Styles.container}>
-        <View style={Styles.logo}>
-            {/*<Image source={logoImg} />*/}
+        <View >
+            <Image style={Styles.logo}source={logoImg} />
             <Text style={Styles.title}> LogIn</Text>
         </View>
+        <LoginForm /> 
                 
       </View>
     );
