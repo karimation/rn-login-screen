@@ -10,11 +10,16 @@ export default StyleSheet.create({
         justifyContent: 'center'
     },
     logo: {
-        width: 100,
-        height: 100,
+        width: 20,
+        height: 20,
     },
     title: {
         fontSize: 30,
         color: "#fff"
-    }
+    },
+    input: {
+        height: 40,
+        backgroundColor: '#f45942',
+    },
+    
 });

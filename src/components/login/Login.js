@@ -4,18 +4,14 @@ import Styles from '../../styles/styles.js';
 
 export default class Login extends Component {
   render() {
-    let logo = require('../../images/logo.png');
+    let logoImg = require('../../images/logo.png');
     return (
       <View style={Styles.container}>
         <View style={Styles.logo}>
-            <Image  source={logo} />
+            <Image source={logoImg} />
             <Text style={Styles.title}> LogIn</Text>
         </View>
-        <View style={Styles.login}>
-          
-        </View>
-
-        
+                
       </View>
     );
   }
