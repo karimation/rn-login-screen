@@ -8,7 +8,7 @@ export default class Login extends Component {
     return (
       <View style={Styles.container}>
         <View style={Styles.logo}>
-            <Image source={logoImg} />
+            {/*<Image source={logoImg} />*/}
             <Text style={Styles.title}> LogIn</Text>
         </View>
                 
