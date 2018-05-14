@@ -1,4 +1,5 @@
 
-import Login from './src/components/login/Login.js';
 
-export default Login;
+import Main from './src/test/Main.js';
+
+export default Main;
