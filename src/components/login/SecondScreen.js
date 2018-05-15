@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 import {Actions, ActionConst} from 'react-native-router-flux';
 
+
 import arrowImg from '../../images/left-arrow.png';
 
 const SIZE = 40;
